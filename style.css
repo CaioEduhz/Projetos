@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(310deg, #0F0F0F, #232D3F 90%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: #fafafa;
+    border-style: solid;
+    border-color: #008170;
+    border-radius: 19px;
+    margin: 14px;
+    max-width: 600px;
+    width: 250px;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+
+.Image{
+    border-radius: 14px;
+    margin: auto;
+    float: left;
+    width: 250px;
+    scale: auto;
+    position: relative;
+}
+
+.Logo{
+    padding: 15px;
+    border-radius: 14px;
+    text-align: center;
+    text-size-adjust: 200px;
+    color: #fff;
+    position: static;
+    margin: 14px;
+    width: 280px;
+    height: 80px;
+    position: absolute; top: 29px; left: 50%; transform: translate(-50%, -50%);
+
+.header{ 
+    background: linear-gradient(120deg, #005B41, #008170 100%);
+    padding: 15px;
+    border-radius: 14px;
+    text-align: center;
+    text-size-adjust: 200px;
+    color: #fff;
+    position: static;
+    margin: 14px;
+    width: 100%;
+    position: absolute; top: 0%;
+}
+
+.Button{
+    border-radius: 19px;
+    margin: 14px;
+    max-width: 600px;
+    width: 250px;
+}
+
+
+.form-content a{ 
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    Visibility: hidden;
+}
+
+.form button{
+    background-color: #ff0000;
+    color: #fff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+}
